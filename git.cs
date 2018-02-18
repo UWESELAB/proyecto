@@ -7,7 +7,7 @@ public class git
     {
         git git;
         if (git == null)  git = this;
-        else return;
+        else if(git!=this)return;
     }
 
 }
